@@ -86,7 +86,7 @@ A conditional column was created to assign **semantic scores** based on
 keyword matching in customer feedback.
 
 **View M Query Code**  
-- [M Query – Semantic Score Logic](./Scripts/M_Query_Semantic_Score.txt)
+- BI1-Insurance-Analytics/Scripts/M Query-Code for Semantic Score.txt
 
  ###  Python Script – Sentiment Scoring & Labeling
 Python was used inside Power BI to:
