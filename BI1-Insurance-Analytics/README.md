@@ -99,7 +99,13 @@ Python was used inside Power BI to:
 **Sentiment Visualization**
 - Bar Chart created to analyze:
  - count of Sentiment score using score categories *positive*,*negative*,*netural* sentiment based on 
-- **Word-Cloud Visulaization** is imported and is used specifically for the sentiment anlysis of feedback score using customer names
+
+- **Word-Cloud Visulaization**
+   - A Word Cloud visualization was used to highlight frequently occurring
+keywords in customer feedback, helping identify dominant themes,
+common concerns, and positive expressions that complement the
+sentiment score analysis
+
 - <img width="1584" height="993" alt="Image" src="https://github.com/user-attachments/assets/08d03b61-0c7d-4c87-8d31-4c45729efc4c" />
 
 **Sentiment Score**
