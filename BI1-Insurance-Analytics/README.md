@@ -5,7 +5,7 @@
 - This project demonstrates data preparation, analytical thinking, Python integration, Power Query transformations, interactive reporting, and secure deployment. Designed as a portfolio project for BI/Data Analyst roles.
 
 **Live Dashboard (Power BI Service)**
-https://app.powerbi.com/groups/me/dashboards/e2968347-5e42-4d0c-94b8-24ff8ab6ffc1?experience=power-bi
+- https://app.powerbi.com/groups/me/dashboards/e2968347-5e42-4d0c-94b8-24ff8ab6ffc1?experience=power-bi
 
 **Business Problem**
 - Insurance stakeholders need a single dashboard to:
@@ -76,19 +76,26 @@ Drill-through enabled using Policy Type-Navigation between:
 
 Improves focused analysis without cluttering visuals
 
-**Sentiment & Semantic Analysis**
+## Sentiment & Semantic Analysis
 
-***Limitation-Due to Power BI AI Insights limitations, sentiment analysis was implemented manually using rule-based logic.***
-- Power Query (M Language) – Conditional Column
-- Semantic scores are assigned based on keyword matching in customer feedback.
+Due to **Power BI AI Insights limitations**, sentiment analysis was implemented
+using **rule-based logic** through **Power Query (M Language)** and **Python scripting**.
 
-**Access the code** from 
-Notepad.
+### Power Query (M Language) – Semantic Score
+A conditional column was created to assign **semantic scores** based on
+keyword matching in customer feedback.
 
-**Python Scripting – Sentiment Scoring & Labeling**
-- Python was used to calculate sentiment scores and classify feedback as Positive, Neutral, or Negative.
+**View M Query Code**  
+- [M Query – Semantic Score Logic](./scripts/M_Query_Semantic_Score.txt)
 
-**Access python code from** - Notepad.
+ ###  Python Script – Sentiment Scoring & Labeling
+Python was used inside Power BI to:
+- Calculate sentiment scores
+- Classify feedback as **Positive, Neutral, or Negative**
+
+**View Python Script**  
+- [Python Sentiment Scoring Script](./scripts/Python_Semantic_Score_PowerQuery.txt)
+
 
 **Sentiment Visualization**
 - Bar Chart created to analyze:
