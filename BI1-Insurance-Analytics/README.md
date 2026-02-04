@@ -94,7 +94,7 @@ Python was used inside Power BI to:
 - Classify feedback as **Positive, Neutral, or Negative**
 
 **View Python Script**  
-- [Python Sentiment Scoring Script](./Scripts/Python_Semantic_Score_PowerQuery.txt)
+- BI1-Insurance-Analytics/Scripts/Semantic Score Calculation using Python Script inside Power Query.txt
 
 
 **Sentiment Visualization**
