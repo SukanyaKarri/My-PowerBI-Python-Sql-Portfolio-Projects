@@ -86,7 +86,7 @@ A conditional column was created to assign **semantic scores** based on
 keyword matching in customer feedback.
 
 **View M Query Code**  
-- [M Query – Semantic Score Logic](./scripts/M_Query_Semantic_Score.txt)
+- [M Query – Semantic Score Logic](./Scripts/M_Query_Semantic_Score.txt)
 
  ###  Python Script – Sentiment Scoring & Labeling
 Python was used inside Power BI to:
@@ -94,7 +94,7 @@ Python was used inside Power BI to:
 - Classify feedback as **Positive, Neutral, or Negative**
 
 **View Python Script**  
-- [Python Sentiment Scoring Script](./scripts/Python_Semantic_Score_PowerQuery.txt)
+- [Python Sentiment Scoring Script](./Scripts/Python_Semantic_Score_PowerQuery.txt)
 
 
 **Sentiment Visualization**
