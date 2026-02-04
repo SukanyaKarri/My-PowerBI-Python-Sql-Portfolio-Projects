@@ -1,0 +1,115 @@
+**Power BI Insurance Analytics Dashboard**
+ 
+ **Overview**
+- An end-to-end Insurance Analytics Dashboard built in Microsoft Power BI, focusing on policy performance, customer demographics, premium vs claim insights, sentiment analysis, and role-based security.
+- This project demonstrates data preparation, analytical thinking, Python integration, Power Query transformations, interactive reporting, and secure deployment. Designed as a portfolio project for BI/Data Analyst roles.
+
+**Live Dashboard (Power BI Service)**
+https://app.powerbi.com/groups/me/dashboards/e2968347-5e42-4d0c-94b8-24ff8ab6ffc1?experience=power-bi
+
+**Business Problem**
+- Insurance stakeholders need a single dashboard to:
+- Monitor premium and claim amounts
+- Understand customer demographics
+- Analyze policy performance
+- Evaluate customer feedback sentiment
+- Restrict data access by policy type
+
+This dashboard addresses those needs through interactive visuals, drill-through analysis, and row-level security.
+
+**Skills Demonstrated**
+- Power BI Desktop & Power BI Service
+- Data Profiling & Data Transformation
+- Power Query (M Language)
+- Python Scripting inside Power BI
+- Interactive Visual Design
+- Drill-Through Navigation
+- Sentiment & Semantic Analysis (rule-based)
+- Row-Level Security (RLS)
+- Dashboard Publishing & Sharing
+
+***Note: This project intentionally does not use DAX. All calculations were handled using Power Query, Python, and built-in aggregations.***
+
+**Project Assets**
+
+- .pbix Power BI report file
+- Published Power BI dashboard
+- Saved report screenshots
+- Python script for sentiment scoring
+- Power Query conditional column logic
+
+**Dashboard Features & Analysis**
+***Data Profiling***
+- Initial exploration and validation of insurance data
+- Column standardization and preparation for analysis
+
+**Premium & Claim Metrics**
+
+Cards used to display:
+- Total Premium Amount
+- Total Claim Amount
+
+Enables quick executive-level insights
+
+**Comparative Analysis**
+
+Ribbon Chart used to compare values across dimensions
+
+**Filters & User Interactivity**
+- Dropdown slicers for flexible filtering
+- All visuals respond dynamically to selections
+
+**Customer Demographics Analysis** -Created:
+
+**Age Group column**
+- Active / Inactive customer column
+
+***Visuals used:***
+- Line Chart → Age group trends
+- Donut Chart → Active vs Inactive distribution
+
+**Drill-Through Analysis**
+
+Drill-through enabled using Policy Type-Navigation between:
+- Main overview page
+- Detailed policy-specific pages
+
+Improves focused analysis without cluttering visuals
+
+**Sentiment & Semantic Analysis**
+
+***Limitation-Due to Power BI AI Insights limitations, sentiment analysis was implemented manually using rule-based logic.***
+- Power Query (M Language) – Conditional Column
+- Semantic scores are assigned based on keyword matching in customer feedback.
+
+**Access the code** from 
+Notepad.
+
+**Python Scripting – Sentiment Scoring & Labeling**
+- Python was used to calculate sentiment scores and classify feedback as Positive, Neutral, or Negative.
+
+**Access python code from** - Notepad.
+
+**Sentiment Visualization**
+- Bar Chart created to analyze:
+- Customer Name
+
+**Sentiment Score**
+- Helps identify patterns in customer feedback quality
+
+**Security & Access Control**
+- Row-Level Security (RLS) implemented
+- Roles created by Policy Type:
+  - Health
+  - Travel
+- Ensures users see only authorized data
+
+**Deployment**
+- Report published to Power BI Service
+- Dashboard accessible via live link
+
+**Key Takeaways**
+- Demonstrates real-world Power BI development workflow
+- Shows problem-solving under licensing constraints
+- Focuses on clean logic, transparency, and usability
+
