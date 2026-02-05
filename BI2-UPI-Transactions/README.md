@@ -98,27 +98,27 @@ https://app.powerbi.com/groups/me/dashboards/1d8e0d4a-2f88-4457-9375-631150342d7
       - Insert → Buttons → Navigator → Bookmark Navigator
       - Used Selection Navigation for seamless chart switching.
 
-  ***User Tip:***
+***User Tip:***
   - Use Ctrl + Click on the required chart in the navigator pane to switch between visuals.
 
-  **Key Insights** 
+    ***Key Insights***
 
- **Transaction Behavior Over Time**
-    - Monthly transaction trends for 2024 help identify peak and low transaction periods.
+   **Transaction Behavior Over Time**
+      - Monthly transaction trends for 2024 help identify peak and low transaction periods.
 
-**Customer Age-Based Analysis**
-   - Age group classification (A1, A2, A3) allows comparison of transaction volume and value across age segments.
+  **Customer Age-Based Analysis**
+     - Age group classification (A1, A2, A3) allows comparison of transaction volume and value across age segments.
 
-**Geographical & Currency Insights**
-  - Matrix visual with city and currency hierarchy provides granular insight into regional transaction distribution.
+  **Geographical & Currency Insights**
+    - Matrix visual with city and currency hierarchy provides granular insight into regional transaction distribution.
 
-**Account & Balance Monitoring**
-  - Remaining balance analysis helps assess post-transaction financial behavior.
+  **Account & Balance Monitoring**
+    - Remaining balance analysis helps assess post-transaction financial behavior.
 
-**User-Centric Design**
-  - Manually calculated slicer layout ensures a clean, consistent, and user-friendly dashboard experience.
+  **User-Centric Design**
+    - Manually calculated slicer layout ensures a clean, consistent, and user-friendly dashboard experience.
 
-**Enhanced Interactivity**
-  - Drill-downs, synced slicers, and bookmarks improve exploratory analysis without cluttering the report.
+  **Enhanced Interactivity**
+    - Drill-downs, synced slicers, and bookmarks improve exploratory analysis without cluttering the report.
 
              
